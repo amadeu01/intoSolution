@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E4E67801AC31B000035F016 /* LoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4E677F1AC31AFF0035F016 /* LoadingViewController.m */; };
+		2E4E67831AC3211E0035F016 /* JogoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4E67821AC3211E0035F016 /* JogoViewController.m */; };
+		2E5273B01AC34A7D00AA38AA /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5273AF1AC34A7D00AA38AA /* Settings.m */; };
+		2E5273B31AC34B4E00AA38AA /* HowToPlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5273B21AC34B4E00AA38AA /* HowToPlay.m */; };
 		2EAAD0FE1AC1DCD700EAF11E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAAD0FD1AC1DCD700EAF11E /* main.m */; };
 		2EAAD1011AC1DCD700EAF11E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAAD1001AC1DCD700EAF11E /* AppDelegate.m */; };
 		2EAAD1041AC1DCD800EAF11E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAAD1031AC1DCD800EAF11E /* ViewController.m */; };
@@ -14,7 +18,6 @@
 		2EAAD1091AC1DCD800EAF11E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EAAD1081AC1DCD800EAF11E /* Images.xcassets */; };
 		2EAAD10C1AC1DCD800EAF11E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EAAD10A1AC1DCD800EAF11E /* LaunchScreen.xib */; };
 		2EAAD1181AC1DCD800EAF11E /* corridaDePlavrasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAAD1171AC1DCD800EAF11E /* corridaDePlavrasTests.m */; };
-		2EAAD1231AC1E69500EAF11E /* jogo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAAD1221AC1E69500EAF11E /* jogo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +31,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E4E677E1AC31AFF0035F016 /* LoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingViewController.h; sourceTree = "<group>"; };
+		2E4E677F1AC31AFF0035F016 /* LoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingViewController.m; sourceTree = "<group>"; };
+		2E4E67811AC3211E0035F016 /* JogoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JogoViewController.h; path = ViewsControllers/JogoViewController.h; sourceTree = "<group>"; };
+		2E4E67821AC3211E0035F016 /* JogoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JogoViewController.m; path = ViewsControllers/JogoViewController.m; sourceTree = "<group>"; };
+		2E5273AE1AC34A7D00AA38AA /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Settings.h; path = Controllers/Settings.h; sourceTree = "<group>"; };
+		2E5273AF1AC34A7D00AA38AA /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Settings.m; path = Controllers/Settings.m; sourceTree = "<group>"; };
+		2E5273B11AC34B4E00AA38AA /* HowToPlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HowToPlay.h; path = ViewsControllers/HowToPlay.h; sourceTree = "<group>"; };
+		2E5273B21AC34B4E00AA38AA /* HowToPlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HowToPlay.m; path = ViewsControllers/HowToPlay.m; sourceTree = "<group>"; };
 		2EAAD0F81AC1DCD700EAF11E /* corridaDePlavras.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = corridaDePlavras.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EAAD0FC1AC1DCD700EAF11E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EAAD0FD1AC1DCD700EAF11E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -41,8 +52,6 @@
 		2EAAD1111AC1DCD800EAF11E /* corridaDePlavrasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = corridaDePlavrasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EAAD1161AC1DCD800EAF11E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EAAD1171AC1DCD800EAF11E /* corridaDePlavrasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = corridaDePlavrasTests.m; sourceTree = "<group>"; };
-		2EAAD1211AC1E69500EAF11E /* jogo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jogo.h; sourceTree = "<group>"; };
-		2EAAD1221AC1E69500EAF11E /* jogo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jogo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +75,10 @@
 		2EAAD0EF1AC1DCD700EAF11E = {
 			isa = PBXGroup;
 			children = (
+				2E5273B11AC34B4E00AA38AA /* HowToPlay.h */,
+				2E5273B21AC34B4E00AA38AA /* HowToPlay.m */,
+				2E4E67811AC3211E0035F016 /* JogoViewController.h */,
+				2E4E67821AC3211E0035F016 /* JogoViewController.m */,
 				2EAAD0FA1AC1DCD700EAF11E /* corridaDePlavras */,
 				2EAAD1141AC1DCD800EAF11E /* corridaDePlavrasTests */,
 				2EAAD0F91AC1DCD700EAF11E /* Products */,
@@ -89,11 +102,13 @@
 				2EAAD1021AC1DCD700EAF11E /* ViewController.h */,
 				2EAAD1031AC1DCD800EAF11E /* ViewController.m */,
 				2EAAD1051AC1DCD800EAF11E /* Main.storyboard */,
+				2E5273AE1AC34A7D00AA38AA /* Settings.h */,
+				2E5273AF1AC34A7D00AA38AA /* Settings.m */,
+				2E4E677E1AC31AFF0035F016 /* LoadingViewController.h */,
+				2E4E677F1AC31AFF0035F016 /* LoadingViewController.m */,
 				2EAAD1081AC1DCD800EAF11E /* Images.xcassets */,
 				2EAAD10A1AC1DCD800EAF11E /* LaunchScreen.xib */,
 				2EAAD0FB1AC1DCD700EAF11E /* Supporting Files */,
-				2EAAD1211AC1E69500EAF11E /* jogo.h */,
-				2EAAD1221AC1E69500EAF11E /* jogo.m */,
 			);
 			path = corridaDePlavras;
 			sourceTree = "<group>";
@@ -224,10 +239,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EAAD1231AC1E69500EAF11E /* jogo.m in Sources */,
+				2E5273B31AC34B4E00AA38AA /* HowToPlay.m in Sources */,
 				2EAAD1041AC1DCD800EAF11E /* ViewController.m in Sources */,
+				2E4E67831AC3211E0035F016 /* JogoViewController.m in Sources */,
+				2E4E67801AC31B000035F016 /* LoadingViewController.m in Sources */,
 				2EAAD1011AC1DCD700EAF11E /* AppDelegate.m in Sources */,
 				2EAAD0FE1AC1DCD700EAF11E /* main.m in Sources */,
+				2E5273B01AC34A7D00AA38AA /* Settings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
