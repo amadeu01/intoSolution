@@ -31,7 +31,7 @@
                     <view key="view" contentMode="scaleToFill" id="aBR-IV-1vx">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.71681139510000003" blue="0.4747608009" alpha="0.75" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="h56-fj-GDD"/>
                 </viewController>
@@ -50,7 +50,7 @@
                     <view key="view" contentMode="scaleToFill" id="yJJ-hg-p3k">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.71681139510000003" blue="0.4747608009" alpha="0.75" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="p3T-RQ-49g"/>
                 </viewController>
@@ -58,10 +58,10 @@
             </objects>
             <point key="canvasLocation" x="187" y="1102"/>
         </scene>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="MainViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -70,33 +70,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuJ-R2-4tY">
-                                <rect key="frame" x="137" y="225" width="39" height="30"/>
-                                <state key="normal" title="Jogar">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="DrW-ci-t9Y" kind="push" id="MVD-fr-yeu"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pB5-CR-ZSI">
-                                <rect key="frame" x="135" y="280" width="51" height="30"/>
-                                <state key="normal" title="ranking">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="NYe-Fv-OEU" kind="push" id="acy-xl-eOp"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bD4-aI-4xz">
-                                <rect key="frame" x="219" y="341" width="22" height="22"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="1JF-B8-WF5" kind="push" id="y6J-mK-hOr"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RVr-oV-oru">
                                 <rect key="frame" x="137" y="341" width="22" height="22"/>
                                 <state key="normal" title="+"/>
@@ -104,14 +77,45 @@
                                     <segue destination="ow4-Ql-OKB" kind="push" id="v4B-gc-cAM"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bD4-aI-4xz">
+                                <rect key="frame" x="217" y="341" width="22" height="22"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1JF-B8-WF5" kind="push" id="Zib-GL-wjq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pB5-CR-ZSI">
+                                <rect key="frame" x="135" y="269" width="51" height="30"/>
+                                <state key="normal" title="ranking">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="NYe-Fv-OEU" kind="push" id="acy-xl-eOp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bll-do-vpx">
+                                <rect key="frame" x="129" y="197" width="62" height="25"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="DrW-ci-t9Y" kind="push" id="Eto-Kw-VLt"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.52189389051810975" green="0.77567334529261778" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="0.71681139514518677" blue="0.47476080086569972" alpha="0.75" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="UqU-F8-b9Y"/>
+                    <connections>
+                        <outlet property="playButton" destination="Bll-do-vpx" id="cpb-wH-LS8"/>
+                        <outlet property="rankingButton" destination="pB5-CR-ZSI" id="1yy-gR-sqd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="130.66666666666666" y="305.77333333333331"/>
+            <point key="canvasLocation" x="130" y="305"/>
         </scene>
         <!--Ranking-->
         <scene sceneID="DC0-Sp-awO">
@@ -124,7 +128,7 @@
                     <view key="view" contentMode="scaleToFill" id="zao-Js-XLv">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.71681139510000003" blue="0.4747608009" alpha="0.75" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Ranking" id="lWm-kg-NWm"/>
                 </viewController>
@@ -135,7 +139,7 @@
         <!--Opções-->
         <scene sceneID="cHs-NN-VGG">
             <objects>
-                <viewController id="DrW-ci-t9Y" sceneMemberID="viewController">
+                <viewController id="DrW-ci-t9Y" customClass="OptionsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fh2-mP-j7m"/>
                         <viewControllerLayoutGuide type="bottom" id="pN9-WZ-odZ"/>
@@ -172,7 +176,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.52189389050000001" green="0.77567334529999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="0.71681139510000003" blue="0.4747608009" alpha="0.75" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Opções" id="MGP-EK-fI4"/>
                 </viewController>
@@ -202,7 +206,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.71681139510000003" blue="0.4747608009" alpha="0.75" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Criar Jogo" id="Y4D-Aa-gjD"/>
                 </viewController>
@@ -232,7 +236,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.71681139510000003" blue="0.4747608009" alpha="0.75" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Loading" id="uyV-uU-SDB"/>
                 </viewController>
@@ -274,7 +278,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.71681139510000003" blue="0.4747608009" alpha="0.75" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Jogo" id="U1L-mw-mxV">
                         <barButtonItem key="backBarButtonItem" title="Sair" id="aMu-hw-Jfb"/>

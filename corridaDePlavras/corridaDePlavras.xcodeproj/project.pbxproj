@@ -11,6 +11,11 @@
 		2E4E67831AC3211E0035F016 /* JogoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4E67821AC3211E0035F016 /* JogoViewController.m */; };
 		2E5273B01AC34A7D00AA38AA /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5273AF1AC34A7D00AA38AA /* Settings.m */; };
 		2E5273B31AC34B4E00AA38AA /* HowToPlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5273B21AC34B4E00AA38AA /* HowToPlay.m */; };
+		2E5273B61AC4816000AA38AA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5273B51AC4816000AA38AA /* MainViewController.m */; };
+		2E5273B91AC482EB00AA38AA /* CustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5273B81AC482EB00AA38AA /* CustomNavigationBar.m */; };
+		2E5273C61AC4A0E400AA38AA /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5273C51AC4A0E400AA38AA /* OptionsViewController.m */; };
+		2E5273CA1AC4A43400AA38AA /* .localized in Resources */ = {isa = PBXBuildFile; fileRef = 2E5273C81AC4A43400AA38AA /* .localized */; };
+		2E5273CB1AC4A43400AA38AA /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E5273C91AC4A43400AA38AA /* button.png */; };
 		2EAAD0FE1AC1DCD700EAF11E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAAD0FD1AC1DCD700EAF11E /* main.m */; };
 		2EAAD1011AC1DCD700EAF11E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAAD1001AC1DCD700EAF11E /* AppDelegate.m */; };
 		2EAAD1041AC1DCD800EAF11E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAAD1031AC1DCD800EAF11E /* ViewController.m */; };
@@ -39,6 +44,14 @@
 		2E5273AF1AC34A7D00AA38AA /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Settings.m; path = Controllers/Settings.m; sourceTree = "<group>"; };
 		2E5273B11AC34B4E00AA38AA /* HowToPlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HowToPlay.h; path = ViewsControllers/HowToPlay.h; sourceTree = "<group>"; };
 		2E5273B21AC34B4E00AA38AA /* HowToPlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HowToPlay.m; path = ViewsControllers/HowToPlay.m; sourceTree = "<group>"; };
+		2E5273B41AC4816000AA38AA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Controllers/MainViewController.h; sourceTree = "<group>"; };
+		2E5273B51AC4816000AA38AA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Controllers/MainViewController.m; sourceTree = "<group>"; };
+		2E5273B71AC482EB00AA38AA /* CustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomNavigationBar.h; path = NavigationBar/CustomNavigationBar.h; sourceTree = "<group>"; };
+		2E5273B81AC482EB00AA38AA /* CustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomNavigationBar.m; path = NavigationBar/CustomNavigationBar.m; sourceTree = "<group>"; };
+		2E5273C41AC4A0E400AA38AA /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OptionsViewController.h; path = ViewsControllers/OptionsViewController.h; sourceTree = SOURCE_ROOT; };
+		2E5273C51AC4A0E400AA38AA /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OptionsViewController.m; path = ViewsControllers/OptionsViewController.m; sourceTree = SOURCE_ROOT; };
+		2E5273C81AC4A43400AA38AA /* .localized */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .localized; sourceTree = "<group>"; };
+		2E5273C91AC4A43400AA38AA /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button.png; path = ../../../Documents/button.png; sourceTree = "<group>"; };
 		2EAAD0F81AC1DCD700EAF11E /* corridaDePlavras.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = corridaDePlavras.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EAAD0FC1AC1DCD700EAF11E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EAAD0FD1AC1DCD700EAF11E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -72,6 +85,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E5273C71AC4A43400AA38AA /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				2E5273C81AC4A43400AA38AA /* .localized */,
+			);
+			name = Documents;
+			path = ../../../Documents;
+			sourceTree = "<group>";
+		};
 		2EAAD0EF1AC1DCD700EAF11E = {
 			isa = PBXGroup;
 			children = (
@@ -97,11 +119,15 @@
 		2EAAD0FA1AC1DCD700EAF11E /* corridaDePlavras */ = {
 			isa = PBXGroup;
 			children = (
+				2E5273C91AC4A43400AA38AA /* button.png */,
+				2E5273C71AC4A43400AA38AA /* Documents */,
 				2EAAD0FF1AC1DCD700EAF11E /* AppDelegate.h */,
 				2EAAD1001AC1DCD700EAF11E /* AppDelegate.m */,
 				2EAAD1021AC1DCD700EAF11E /* ViewController.h */,
 				2EAAD1031AC1DCD800EAF11E /* ViewController.m */,
 				2EAAD1051AC1DCD800EAF11E /* Main.storyboard */,
+				2E5273C41AC4A0E400AA38AA /* OptionsViewController.h */,
+				2E5273C51AC4A0E400AA38AA /* OptionsViewController.m */,
 				2E5273AE1AC34A7D00AA38AA /* Settings.h */,
 				2E5273AF1AC34A7D00AA38AA /* Settings.m */,
 				2E4E677E1AC31AFF0035F016 /* LoadingViewController.h */,
@@ -109,6 +135,10 @@
 				2EAAD1081AC1DCD800EAF11E /* Images.xcassets */,
 				2EAAD10A1AC1DCD800EAF11E /* LaunchScreen.xib */,
 				2EAAD0FB1AC1DCD700EAF11E /* Supporting Files */,
+				2E5273B41AC4816000AA38AA /* MainViewController.h */,
+				2E5273B51AC4816000AA38AA /* MainViewController.m */,
+				2E5273B71AC482EB00AA38AA /* CustomNavigationBar.h */,
+				2E5273B81AC482EB00AA38AA /* CustomNavigationBar.m */,
 			);
 			path = corridaDePlavras;
 			sourceTree = "<group>";
@@ -220,8 +250,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EAAD1071AC1DCD800EAF11E /* Main.storyboard in Resources */,
+				2E5273CB1AC4A43400AA38AA /* button.png in Resources */,
 				2EAAD10C1AC1DCD800EAF11E /* LaunchScreen.xib in Resources */,
 				2EAAD1091AC1DCD800EAF11E /* Images.xcassets in Resources */,
+				2E5273CA1AC4A43400AA38AA /* .localized in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,10 +272,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E5273B31AC34B4E00AA38AA /* HowToPlay.m in Sources */,
+				2E5273B91AC482EB00AA38AA /* CustomNavigationBar.m in Sources */,
 				2EAAD1041AC1DCD800EAF11E /* ViewController.m in Sources */,
 				2E4E67831AC3211E0035F016 /* JogoViewController.m in Sources */,
+				2E5273B61AC4816000AA38AA /* MainViewController.m in Sources */,
 				2E4E67801AC31B000035F016 /* LoadingViewController.m in Sources */,
 				2EAAD1011AC1DCD700EAF11E /* AppDelegate.m in Sources */,
+				2E5273C61AC4A0E400AA38AA /* OptionsViewController.m in Sources */,
 				2EAAD0FE1AC1DCD700EAF11E /* main.m in Sources */,
 				2E5273B01AC34A7D00AA38AA /* Settings.m in Sources */,
 			);
