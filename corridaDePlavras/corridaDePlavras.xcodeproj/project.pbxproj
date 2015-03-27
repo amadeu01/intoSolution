@@ -25,6 +25,7 @@
 		2EAAD1181AC1DCD800EAF11E /* corridaDePlavrasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAAD1171AC1DCD800EAF11E /* corridaDePlavrasTests.m */; };
 		2EFE61031AC5AF300033F079 /* UPStackMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFE61001AC5AF300033F079 /* UPStackMenu.m */; };
 		2EFE61041AC5AF300033F079 /* UPStackMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFE61021AC5AF300033F079 /* UPStackMenuItem.m */; };
+		2EFE61071AC5DEBF0033F079 /* RackingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFE61061AC5DEBF0033F079 /* RackingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,8 @@
 		2EFE61001AC5AF300033F079 /* UPStackMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UPStackMenu.m; path = ../UPStackMenu/UPStackMenu.m; sourceTree = "<group>"; };
 		2EFE61011AC5AF300033F079 /* UPStackMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UPStackMenuItem.h; path = ../UPStackMenu/UPStackMenuItem.h; sourceTree = "<group>"; };
 		2EFE61021AC5AF300033F079 /* UPStackMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UPStackMenuItem.m; path = ../UPStackMenu/UPStackMenuItem.m; sourceTree = "<group>"; };
+		2EFE61051AC5DEBF0033F079 /* RackingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RackingViewController.h; path = ViewsControllers/RackingViewController.h; sourceTree = SOURCE_ROOT; };
+		2EFE61061AC5DEBF0033F079 /* RackingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RackingViewController.m; path = ViewsControllers/RackingViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +145,8 @@
 		2EAAD0FB1AC1DCD700EAF11E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2EFE61051AC5DEBF0033F079 /* RackingViewController.h */,
+				2EFE61061AC5DEBF0033F079 /* RackingViewController.m */,
 				2EFE60FF1AC5AF300033F079 /* UPStackMenu.h */,
 				2EFE61001AC5AF300033F079 /* UPStackMenu.m */,
 				2EFE61011AC5AF300033F079 /* UPStackMenuItem.h */,
@@ -291,6 +296,7 @@
 				2EFE61041AC5AF300033F079 /* UPStackMenuItem.m in Sources */,
 				2EAAD1011AC1DCD700EAF11E /* AppDelegate.m in Sources */,
 				2E5273C61AC4A0E400AA38AA /* OptionsViewController.m in Sources */,
+				2EFE61071AC5DEBF0033F079 /* RackingViewController.m in Sources */,
 				2EAAD0FE1AC1DCD700EAF11E /* main.m in Sources */,
 				2E5273B01AC34A7D00AA38AA /* Settings.m in Sources */,
 			);

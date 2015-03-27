@@ -15,6 +15,8 @@
     
     [super viewWillAppear:animated];
     
+    UIImageView *backgroundImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"background3-1"]];
+    [self.view addSubview:backgroundImage];
     // Update the views appropriately
     self.textLabel.text = @"Fazendo teste!!!";
     

@@ -15,7 +15,7 @@
     [super viewWillAppear:animated];
     [self styleNavBar];
     
-    UIImageView *backgroundImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"background"]];
+    UIImageView *backgroundImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"background3-1"]];
     [self.view addSubview:backgroundImage];
 }
 

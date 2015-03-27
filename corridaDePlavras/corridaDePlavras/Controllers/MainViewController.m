@@ -123,7 +123,8 @@
     [contentView addSubview:icon];
     
     
-    UIImageView *backgroundImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"background2"]];
+    
+    UIImageView *backgroundImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"background3-1"]];
     [self.view addSubview:backgroundImage];
     
     [self initButtons];

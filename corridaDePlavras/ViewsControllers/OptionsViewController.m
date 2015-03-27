@@ -26,6 +26,8 @@
     [icon setContentMode:UIViewContentModeScaleAspectFit];
     [icon setFrame:CGRectInset(contentView.frame, 10, 10)];
     [contentView addSubview:icon];
+    UIImageView *backgroundImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"background3-1"]];
+    [self.view addSubview:backgroundImage];
     
     [self initButtons];
     
