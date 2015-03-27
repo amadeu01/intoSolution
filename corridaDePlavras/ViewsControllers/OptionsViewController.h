@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UPStackMenu.h"
 
-@interface OptionsViewController : UIViewController
+@interface OptionsViewController : UIViewController <UPStackMenuDelegate>
 
 @end

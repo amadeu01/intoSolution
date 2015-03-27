@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UPStackMenu.h"
 
-@interface MainViewController : UIViewController
-@property (strong, nonatomic) IBOutlet UIButton *playButton;
-@property (strong, nonatomic) IBOutlet UIButton *rankingButton;
+
+@interface MainViewController : UIViewController <UPStackMenuDelegate>
 
 @end

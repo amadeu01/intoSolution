@@ -17,9 +17,8 @@
     [super viewWillAppear:animated];
     [self styleNavBar];
 
-    __weak id weakSelf = self;
-    self.navigationController.interactivePopGestureRecognizer.delegate = weakSelf;
-
+    UIImageView *backgroundImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"background"]];
+    [self.view addSubview:backgroundImage];
 }
 
 - (void)styleNavBar {

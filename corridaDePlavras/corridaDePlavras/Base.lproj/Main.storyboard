@@ -1,25 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="gCA-MC-CEl">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="P9f-hY-4PG">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller-->
-        <scene sceneID="mXF-KL-whZ">
-            <objects>
-                <navigationController id="gCA-MC-CEl" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hLD-Fa-Raa">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="DY7-c4-4wR"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Biv-hi-C8q" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-418" y="305"/>
-        </scene>
         <!--How To Play-->
         <scene sceneID="RVR-j3-uq1">
             <objects>
@@ -31,7 +15,6 @@
                     <view key="view" contentMode="scaleToFill" id="aBR-IV-1vx">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="0.71681139510000003" blue="0.4747608009" alpha="0.75" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="h56-fj-GDD"/>
                 </viewController>
@@ -50,13 +33,28 @@
                     <view key="view" contentMode="scaleToFill" id="yJJ-hg-p3k">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="0.71681139510000003" blue="0.4747608009" alpha="0.75" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="p3T-RQ-49g"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wY6-6z-cxq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="187" y="1102"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2EP-Qr-osv">
+            <objects>
+                <navigationController id="P9f-hY-4PG" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="N3O-jW-uB8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="VpI-dX-bsm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MqR-qd-2Fr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-421" y="305"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="ufC-wZ-h7g">
@@ -69,48 +67,13 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RVr-oV-oru">
-                                <rect key="frame" x="137" y="341" width="22" height="22"/>
-                                <state key="normal" title="+"/>
-                                <connections>
-                                    <segue destination="ow4-Ql-OKB" kind="push" id="v4B-gc-cAM"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bD4-aI-4xz">
-                                <rect key="frame" x="217" y="341" width="22" height="22"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="1JF-B8-WF5" kind="push" id="Zib-GL-wjq"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pB5-CR-ZSI">
-                                <rect key="frame" x="135" y="269" width="51" height="30"/>
-                                <state key="normal" title="ranking">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="NYe-Fv-OEU" kind="push" id="acy-xl-eOp"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bll-do-vpx">
-                                <rect key="frame" x="129" y="197" width="62" height="25"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="DrW-ci-t9Y" kind="push" id="Eto-Kw-VLt"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="0.71681139514518677" blue="0.47476080086569972" alpha="0.75" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="UqU-F8-b9Y"/>
                     <connections>
-                        <outlet property="playButton" destination="Bll-do-vpx" id="cpb-wH-LS8"/>
-                        <outlet property="rankingButton" destination="pB5-CR-ZSI" id="1yy-gR-sqd"/>
+                        <segue destination="NYe-Fv-OEU" kind="push" identifier="segueToRanking" id="HCF-uc-dPe"/>
+                        <segue destination="1JF-B8-WF5" kind="push" identifier="segueToSettings" id="NCZ-Tr-Tqg"/>
+                        <segue destination="ow4-Ql-OKB" kind="push" identifier="segueToHowToPlay" id="5uY-Fa-rMK"/>
+                        <segue destination="DrW-ci-t9Y" kind="push" identifier="segueToPlay" id="ELO-up-PF1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -128,7 +91,6 @@
                     <view key="view" contentMode="scaleToFill" id="zao-Js-XLv">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="0.71681139510000003" blue="0.4747608009" alpha="0.75" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Ranking" id="lWm-kg-NWm"/>
                 </viewController>
@@ -147,38 +109,13 @@
                     <view key="view" contentMode="scaleToFill" id="aQu-MI-pDJ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jBz-tF-OCS">
-                                <rect key="frame" x="137" y="171" width="51" height="30"/>
-                                <state key="normal" title="Torneio">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="Efy-X1-6t2" kind="push" id="fiC-iz-HrU"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jPq-5y-gmi">
-                                <rect key="frame" x="137" y="245" width="55" height="30"/>
-                                <state key="normal" title="Simples">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="iQe-2P-qsj" kind="push" id="YdI-dY-lbm"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rfZ-QL-vRZ">
-                                <rect key="frame" x="138" y="308" width="72" height="30"/>
-                                <state key="normal" title="Criar Jogo">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="O5I-Qj-hIC" kind="push" id="qLz-dq-rZ1"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="0.71681139510000003" blue="0.4747608009" alpha="0.75" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Opções" id="MGP-EK-fI4"/>
+                    <connections>
+                        <segue destination="Efy-X1-6t2" kind="push" identifier="segueToLoading" id="rFo-sO-kj3"/>
+                        <segue destination="O5I-Qj-hIC" kind="push" identifier="segueToCreateGame" id="xBk-oB-fyp"/>
+                        <segue destination="iQe-2P-qsj" kind="push" identifier="segueSimpleGame" id="li1-WR-BBT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="feq-Bo-2K8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -202,17 +139,16 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="iQe-2P-qsj" kind="custom" id="qcE-69-gkb"/>
+                                    <segue destination="iQe-2P-qsj" kind="push" id="Tpb-bL-K8J"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.71681139510000003" blue="0.4747608009" alpha="0.75" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Criar Jogo" id="Y4D-Aa-gjD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wxO-Ei-yx1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1148" y="200"/>
+            <point key="canvasLocation" x="1154" y="192"/>
         </scene>
         <!--Loading-->
         <scene sceneID="mij-1m-wGO">
@@ -236,7 +172,6 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.71681139510000003" blue="0.4747608009" alpha="0.75" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Loading" id="uyV-uU-SDB"/>
                 </viewController>
@@ -300,7 +235,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="YdI-dY-lbm"/>
+        <segue reference="li1-WR-BBT"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
 </document>

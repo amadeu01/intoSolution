@@ -23,6 +23,8 @@
 		2EAAD1091AC1DCD800EAF11E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EAAD1081AC1DCD800EAF11E /* Images.xcassets */; };
 		2EAAD10C1AC1DCD800EAF11E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EAAD10A1AC1DCD800EAF11E /* LaunchScreen.xib */; };
 		2EAAD1181AC1DCD800EAF11E /* corridaDePlavrasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAAD1171AC1DCD800EAF11E /* corridaDePlavrasTests.m */; };
+		2EFE61031AC5AF300033F079 /* UPStackMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFE61001AC5AF300033F079 /* UPStackMenu.m */; };
+		2EFE61041AC5AF300033F079 /* UPStackMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFE61021AC5AF300033F079 /* UPStackMenuItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,10 @@
 		2EAAD1111AC1DCD800EAF11E /* corridaDePlavrasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = corridaDePlavrasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EAAD1161AC1DCD800EAF11E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EAAD1171AC1DCD800EAF11E /* corridaDePlavrasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = corridaDePlavrasTests.m; sourceTree = "<group>"; };
+		2EFE60FF1AC5AF300033F079 /* UPStackMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UPStackMenu.h; path = ../UPStackMenu/UPStackMenu.h; sourceTree = "<group>"; };
+		2EFE61001AC5AF300033F079 /* UPStackMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UPStackMenu.m; path = ../UPStackMenu/UPStackMenu.m; sourceTree = "<group>"; };
+		2EFE61011AC5AF300033F079 /* UPStackMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UPStackMenuItem.h; path = ../UPStackMenu/UPStackMenuItem.h; sourceTree = "<group>"; };
+		2EFE61021AC5AF300033F079 /* UPStackMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UPStackMenuItem.m; path = ../UPStackMenu/UPStackMenuItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,19 +132,9 @@
 				2EAAD1021AC1DCD700EAF11E /* ViewController.h */,
 				2EAAD1031AC1DCD800EAF11E /* ViewController.m */,
 				2EAAD1051AC1DCD800EAF11E /* Main.storyboard */,
-				2E5273C41AC4A0E400AA38AA /* OptionsViewController.h */,
-				2E5273C51AC4A0E400AA38AA /* OptionsViewController.m */,
-				2E5273AE1AC34A7D00AA38AA /* Settings.h */,
-				2E5273AF1AC34A7D00AA38AA /* Settings.m */,
-				2E4E677E1AC31AFF0035F016 /* LoadingViewController.h */,
-				2E4E677F1AC31AFF0035F016 /* LoadingViewController.m */,
 				2EAAD1081AC1DCD800EAF11E /* Images.xcassets */,
 				2EAAD10A1AC1DCD800EAF11E /* LaunchScreen.xib */,
 				2EAAD0FB1AC1DCD700EAF11E /* Supporting Files */,
-				2E5273B41AC4816000AA38AA /* MainViewController.h */,
-				2E5273B51AC4816000AA38AA /* MainViewController.m */,
-				2E5273B71AC482EB00AA38AA /* CustomNavigationBar.h */,
-				2E5273B81AC482EB00AA38AA /* CustomNavigationBar.m */,
 			);
 			path = corridaDePlavras;
 			sourceTree = "<group>";
@@ -146,6 +142,20 @@
 		2EAAD0FB1AC1DCD700EAF11E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2EFE60FF1AC5AF300033F079 /* UPStackMenu.h */,
+				2EFE61001AC5AF300033F079 /* UPStackMenu.m */,
+				2EFE61011AC5AF300033F079 /* UPStackMenuItem.h */,
+				2EFE61021AC5AF300033F079 /* UPStackMenuItem.m */,
+				2E5273B41AC4816000AA38AA /* MainViewController.h */,
+				2E5273B51AC4816000AA38AA /* MainViewController.m */,
+				2E5273B71AC482EB00AA38AA /* CustomNavigationBar.h */,
+				2E5273B81AC482EB00AA38AA /* CustomNavigationBar.m */,
+				2E5273C41AC4A0E400AA38AA /* OptionsViewController.h */,
+				2E5273C51AC4A0E400AA38AA /* OptionsViewController.m */,
+				2E5273AE1AC34A7D00AA38AA /* Settings.h */,
+				2E5273AF1AC34A7D00AA38AA /* Settings.m */,
+				2E4E677E1AC31AFF0035F016 /* LoadingViewController.h */,
+				2E4E677F1AC31AFF0035F016 /* LoadingViewController.m */,
 				2EAAD0FC1AC1DCD700EAF11E /* Info.plist */,
 				2EAAD0FD1AC1DCD700EAF11E /* main.m */,
 			);
@@ -271,12 +281,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EFE61031AC5AF300033F079 /* UPStackMenu.m in Sources */,
 				2E5273B31AC34B4E00AA38AA /* HowToPlay.m in Sources */,
 				2E5273B91AC482EB00AA38AA /* CustomNavigationBar.m in Sources */,
 				2EAAD1041AC1DCD800EAF11E /* ViewController.m in Sources */,
 				2E4E67831AC3211E0035F016 /* JogoViewController.m in Sources */,
 				2E5273B61AC4816000AA38AA /* MainViewController.m in Sources */,
 				2E4E67801AC31B000035F016 /* LoadingViewController.m in Sources */,
+				2EFE61041AC5AF300033F079 /* UPStackMenuItem.m in Sources */,
 				2EAAD1011AC1DCD700EAF11E /* AppDelegate.m in Sources */,
 				2E5273C61AC4A0E400AA38AA /* OptionsViewController.m in Sources */,
 				2EAAD0FE1AC1DCD700EAF11E /* main.m in Sources */,
